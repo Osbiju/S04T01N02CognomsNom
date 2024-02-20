@@ -17,4 +17,5 @@ public class HelloWorldController {
     public String saluda2(@PathVariable(required = false) String nom){
         return "Hola, " + nom + ". Estas executant un projecte Gradle";
     }
+
 }
